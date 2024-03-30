@@ -24,6 +24,10 @@ public class EstruturasDeControle {
             System.out.println("Adulto");
         }
 
+//        OP TERNARIO
+        String verificaIdade = idade >= 18 ? "Maior idade" :"Menor idade";
+        System.out.println("Verificar Idade: " + verificaIdade);
+
 //        SWITCH
         switch (nota) {
             case 1:
